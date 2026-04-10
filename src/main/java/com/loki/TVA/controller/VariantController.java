@@ -1,0 +1,12 @@
+package com.loki.TVA.controller;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/variant")
+public class VariantController {
+
+//    get all data
+
+}
