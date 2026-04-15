@@ -48,6 +48,7 @@ public class VariantController {
     }
 
 //    delete variant by id
+    @DeleteMapping("/variant/{id}")
     public ResponseEntity<Void> deleteVariantById(@PathVariable Long id){
         service.deleteVariantById(id);
         return ResponseEntity.noContent().build();
