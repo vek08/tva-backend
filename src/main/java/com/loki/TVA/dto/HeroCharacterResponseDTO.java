@@ -9,9 +9,10 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class CharacterResponseDTO {
+public class HeroCharacterResponseDTO {
     private Long id;
-    private String name;
+    private String title;
     private String description;
     private String imageUrl;
+
 }
